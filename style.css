@@ -1,5 +1,9 @@
 body {
-    background-image: url(high-quality-abstract-wallpaper-1003.jpg);
+    background-image: url(ink2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
 
 
 }
@@ -39,6 +43,7 @@ body {
     background-color: rgba(0, 97, 255, 0.9);
     min-width: 140px;
     box-shadow: 10px 10px 5px #888888;
+    border-radius: 10%;
 
 
 }
@@ -54,7 +59,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
@@ -74,7 +79,7 @@ body {
 section {
     margin: 2%;
     padding: 3%;
-    background-color: rgba(253, 251, 251, 0.7)
+    background-color: rgba(255, 255, 255, 0.7)
 }
 
 h1 {
@@ -82,7 +87,7 @@ h1 {
     font-size: 250%;
 }
 
-h2 {
+h3 {
     font-size: 200%;
 }
 
@@ -90,7 +95,7 @@ h2 {
     background-color: rgba(17, 149, 219, 0.53);
     padding: 2vw;
     font-size: 4vw;
-    border: none;
+    border-radius: 30%;
     cursor: pointer;
     width: 30vw;
     height: 10vw;
@@ -101,18 +106,22 @@ h2 {
 }
 
 
+button {
+    border-radius: 100%
+}
 
 #vis {
     background-color: rgba(17, 149, 219, 0.53);
-    padding: 16px;
+
     font-size: 19px;
-    border: none;
+    border-radius: 10%;
     cursor: pointer;
-    width: 330px;
-    height: 50px;
+    width: 25vw;
+    height: 5vw;
 
 
 }
+
 
 p {
     font-family: 'Oswald', sans-serif;
@@ -124,7 +133,7 @@ p {
     height: 30vw;
     overflow: hidden;
     position: relative;
-    right: -30%;
+    right: -35%;
 
 }
 
@@ -132,7 +141,7 @@ p {
     position: absolute;
     animation: fling-minislide 20s infinite;
     opacity: 0;
-    width: 30vw;
+    width: 35vw;
     height: auto;
 }
 
@@ -184,27 +193,34 @@ p {
     flex-wrap: wrap;
 
 
+
 }
 
 .gallery {
-    margin: 3vw;
-    border: 0.4vw solid #b3b971;
-    width: 20vw;
+    margin: 5vw;
+    border: 0.5vw solid #b3b971;
+    flex-basis: 200px;
+    overflow: hidden;
+
+
 }
 
 .gallery:hover {
-    border: 0.4vw solid #777;
+    border: 0.5vw solid #777;
+    transform: scale(1.2)
 }
 
 .gallery img {
     width: 100%;
-    height: 10vw;
+
+
 }
 
 .desc {
-    padding: 2vw;
+    padding: 0.1vw;
     text-align: center;
     background-color: snow;
+    height: 60%;
 }
 
 object {
@@ -220,5 +236,20 @@ object {
     cursor: pointer;
     width: 330px;
     height: 50px;
+
+}
+
+#gif {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#gif img {
+    width: 10vw;
+    height: 10vw;
+
+
+
 
 }
