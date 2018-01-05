@@ -60,8 +60,13 @@ body {
 
 .dropdown-content a:hover {
     background-color: #8b3b08;
-    transform: scale(1.1);
-    border-radius: 20%;
+    border-radius: 10%;
+    text-decoration-color: white;
+    font-size: 200%;
+}
+
+.dropdown-content p {
+    transform: scale(1.1)
 }
 
 .dropdown:hover .dropdown-content {
@@ -200,7 +205,7 @@ p {
 
 .gallery {
     margin: 5vw;
-    border: 0.5vw solid #b3b971;
+    border: 0.5vw solid rgba(255, 177, 0, 0.53);
     flex-basis: 200px;
     overflow: hidden;
 
@@ -208,7 +213,7 @@ p {
 }
 
 .gallery:hover {
-    border: 0.5vw solid #777;
+    border: 0.5vw solid rgba(255, 102, 7, 0.87);
     transform: scale(1.2)
 }
 
