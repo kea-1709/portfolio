@@ -9,7 +9,18 @@ function hide() {
     $("object").hide();
     $("#cv").on("click", se);
 
+
+    $(".gallaribtn").click(function () {
+        window.location.href = "galari.html";
+        return false;
+    });
+
+
+
+
 }
+
+
 
 function vis() {
     $("#hide").show();
