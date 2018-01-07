@@ -1,7 +1,7 @@
 $(window).on("load", hide);
 
 function hide() {
-    console.log("?");
+    console.log("start");
 
     $("#hide").hide();
     $("#gem").hide();
